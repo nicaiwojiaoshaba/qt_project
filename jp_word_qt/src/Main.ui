@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>812</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="questionView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>771</width>
+      <height>261</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="chinaRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>470</y>
+      <width>89</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提问汉译</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="kanaRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>510</y>
+      <width>89</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提问假名</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="japanRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>550</y>
+      <width>89</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提问日本字</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="bookComboBox">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>470</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>初上</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>初下</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>中上</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>中下</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="classComboBox">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>500</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>第一课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第三课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第四课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第五课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第六课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第七课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第八课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第九课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十一课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十二课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十三课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十四课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十五课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十六课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十七课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十八课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第十九课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二十课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二十一课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二十二课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二十三课</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二十四课</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="countComboBox">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>530</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="book">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>书册：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="class_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>500</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>课：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="count">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>530</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>听写个数：</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="translateText">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>350</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="translate">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>翻译：</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>430</y>
+      <width>791</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;Yu Gothic UI&quot;;</string>
+    </property>
+    <property name="title">
+     <string>功能选择区</string>
+    </property>
+    <widget class="QLabel" name="type">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;Yu Gothic UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>听写类型：</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="typeComboBox">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>130</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;Yu Gothic UI&quot;;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>ALL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>名词</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>动词</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>形容词</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>副词</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>短语</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="questionButton">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>130</y>
+       <width>75</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>75</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>提问</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>319</y>
+      <width>791</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;Yu Gothic UI&quot;;</string>
+    </property>
+    <property name="title">
+     <string>翻译区</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>40</y>
+       <width>231</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 9pt &quot;Yu Gothic UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>※只能翻译提问区内部的单词</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="translateButton">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>30</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>翻译</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="translate_value">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>70</y>
+       <width>701</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;Yu Gothic UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="translateAllButton">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>30</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>全部翻译</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>791</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;Yu Gothic UI&quot;;</string>
+    </property>
+    <property name="title">
+     <string>提问区</string>
+    </property>
+   </widget>
+   <zorder>groupBox_3</zorder>
+   <zorder>groupBox_2</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>bookComboBox</zorder>
+   <zorder>questionView</zorder>
+   <zorder>chinaRadioButton</zorder>
+   <zorder>kanaRadioButton</zorder>
+   <zorder>japanRadioButton</zorder>
+   <zorder>classComboBox</zorder>
+   <zorder>countComboBox</zorder>
+   <zorder>book</zorder>
+   <zorder>class_2</zorder>
+   <zorder>count</zorder>
+   <zorder>translateText</zorder>
+   <zorder>translate</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>812</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menujp_word">
+    <property name="title">
+     <string>提问</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuupload">
+    <property name="title">
+     <string>上传</string>
+    </property>
+   </widget>
+   <addaction name="menujp_word"/>
+   <addaction name="menuupload"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
