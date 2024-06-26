@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="resource">
+    <file>showPass.png</file>
+    <file>session.png</file>
+    <file>link.png</file>
+    <file>plugins.png</file>
+  </qresource>
+</RCC>
