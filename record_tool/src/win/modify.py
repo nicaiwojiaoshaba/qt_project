@@ -1,13 +1,19 @@
 from PySide6.QtWidgets import QDialog
 from ui.modify_ui import Ui_Dialog
+from PySide6.QtGui import QIcon
 from util.passwordEdit import PasswordEdit
+from util.path import expand_source_root
 
 
-class modifyWindow(QDialog, Ui_Dialog):
+class ModifyWindow(QDialog, Ui_Dialog):
     def __init__(self, parent=None):
-        super(modifyWindow, self).__init__(parent)
+        super(ModifyWindow, self).__init__(parent)
         self.setupUi(self)
+        # 设置画面标题
         self.setWindowTitle("修改密码")
+        # 设置图标
+        self.setWindowIcon(QIcon(f"{expand_source_root('resource')}/user.png"))
+
         # 原密码
         self.original_edit = PasswordEdit()
         self.horizontalLayout_2.replaceWidget(self.original_temp, self.original_edit)
@@ -20,14 +26,17 @@ class modifyWindow(QDialog, Ui_Dialog):
         self.confirm_edit = PasswordEdit()
         self.horizontalLayout_2.replaceWidget(self.confirm_temp, self.confirm_edit)
         self.confirm_temp.deleteLater()
+        self.modify_btn.clicked.connect(self.modify_btn_clicked)
 
-    def display(self, login, retrieve):
-        self.login = login
-        self.retrieve = retrieve
-        self.retrieve.close()
-        self.showNormal()
+    # 修改密码初始化方法
+    def display(self):
+        self.show()
 
     # 修改密码窗口关闭时触发
     def closeEvent(self, event):
-        self.login.show()
-        self.login.login_btn.setFocus()
+        self.login_win.display()
+
+    # 点击修改按钮
+    def modify_btn_clicked(self):
+        self.hide()
+        self.login_win.display()

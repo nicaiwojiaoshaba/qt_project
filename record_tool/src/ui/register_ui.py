@@ -196,10 +196,10 @@ class Ui_Dialog(object):
 
         self.verticalLayout_2.addLayout(self.horizontalLayout_18)
 
-        self.pushButton = QPushButton(self.widget)
-        self.pushButton.setObjectName(u"pushButton")
+        self.register_btn = QPushButton(self.widget)
+        self.register_btn.setObjectName(u"register_btn")
 
-        self.verticalLayout_2.addWidget(self.pushButton)
+        self.verticalLayout_2.addWidget(self.register_btn)
 
 
         self.verticalLayout.addWidget(self.widget)
@@ -224,6 +224,6 @@ class Ui_Dialog(object):
         self.question1_label.setText(QCoreApplication.translate("Dialog", u"\u5bc6\u4fdd(\u59d3\u540d)\uff1a", None))
         self.question2_label.setText(QCoreApplication.translate("Dialog", u"\u5bc6\u4fdd(\u5de5\u53f7)\uff1a", None))
         self.tip.setText(QCoreApplication.translate("Dialog", u"  *\u5bc6\u4fdd\u95ee\u9898\u7528\u4e8e\u5bc6\u7801\u627e\u56de,\u8bf7\u5982\u5b9e\u586b\u5199", None))
-        self.pushButton.setText(QCoreApplication.translate("Dialog", u"\u6ce8\u518c", None))
+        self.register_btn.setText(QCoreApplication.translate("Dialog", u"\u6ce8\u518c", None))
     # retranslateUi
 

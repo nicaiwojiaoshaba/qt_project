@@ -336,7 +336,7 @@ font: 8pt &quot;Yu Gothic UI&quot;;</string>
        </layout>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="register_btn">
         <property name="text">
          <string>注册</string>
         </property>

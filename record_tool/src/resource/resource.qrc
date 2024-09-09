@@ -4,5 +4,6 @@
     <file>session.png</file>
     <file>link.png</file>
     <file>plugins.png</file>
+    <file>login.png</file>
   </qresource>
 </RCC>
