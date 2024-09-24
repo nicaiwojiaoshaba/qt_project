@@ -3,10 +3,12 @@ from PySide6.QtGui import QIcon, QAction
 
 
 class PasswordEdit(QLineEdit):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+    def __init__(self, objectName, placeholderText=""):
+        super().__init__()
         # 设定lineEdit为password类型
         self.setEchoMode(QLineEdit.Password)
+        self.setObjectName(objectName)
+        self.setPlaceholderText(placeholderText)
         # 定义图标
         self.passWordIcon = QAction(self.style().standardIcon(QStyle.StandardPixmap.SP_DialogIgnoreButton), "showPassword", self)
         # 将图标添加到lineEdit中

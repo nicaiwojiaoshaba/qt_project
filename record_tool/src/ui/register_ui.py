@@ -145,16 +145,16 @@ class Ui_Dialog(object):
 
         self.horizontalLayout_16 = QHBoxLayout()
         self.horizontalLayout_16.setObjectName(u"horizontalLayout_16")
-        self.question1_label = QLabel(self.widget)
-        self.question1_label.setObjectName(u"question1_label")
+        self.security_name_label = QLabel(self.widget)
+        self.security_name_label.setObjectName(u"security_name_label")
 
-        self.horizontalLayout_16.addWidget(self.question1_label)
+        self.horizontalLayout_16.addWidget(self.security_name_label)
 
-        self.question1_edit = QLineEdit(self.widget)
-        self.question1_edit.setObjectName(u"question1_edit")
-        self.question1_edit.setMaximumSize(QSize(287, 16777215))
+        self.security_name_edit = QLineEdit(self.widget)
+        self.security_name_edit.setObjectName(u"security_name_edit")
+        self.security_name_edit.setMaximumSize(QSize(287, 16777215))
 
-        self.horizontalLayout_16.addWidget(self.question1_edit)
+        self.horizontalLayout_16.addWidget(self.security_name_edit)
 
 
         self.verticalLayout_2.addLayout(self.horizontalLayout_16)
@@ -165,16 +165,16 @@ class Ui_Dialog(object):
 
         self.horizontalLayout_17 = QHBoxLayout()
         self.horizontalLayout_17.setObjectName(u"horizontalLayout_17")
-        self.question2_label = QLabel(self.widget)
-        self.question2_label.setObjectName(u"question2_label")
+        self.security_number_label = QLabel(self.widget)
+        self.security_number_label.setObjectName(u"security_number_label")
 
-        self.horizontalLayout_17.addWidget(self.question2_label)
+        self.horizontalLayout_17.addWidget(self.security_number_label)
 
-        self.question2_edit = QLineEdit(self.widget)
-        self.question2_edit.setObjectName(u"question2_edit")
-        self.question2_edit.setMaximumSize(QSize(287, 16777215))
+        self.security_number_edit = QLineEdit(self.widget)
+        self.security_number_edit.setObjectName(u"security_number_edit")
+        self.security_number_edit.setMaximumSize(QSize(287, 16777215))
 
-        self.horizontalLayout_17.addWidget(self.question2_edit)
+        self.horizontalLayout_17.addWidget(self.security_number_edit)
 
 
         self.verticalLayout_2.addLayout(self.horizontalLayout_17)
@@ -204,6 +204,11 @@ class Ui_Dialog(object):
 
         self.verticalLayout.addWidget(self.widget)
 
+        QWidget.setTabOrder(self.username_edit, self.password_temp)
+        QWidget.setTabOrder(self.password_temp, self.confirm_temp)
+        QWidget.setTabOrder(self.confirm_temp, self.security_name_edit)
+        QWidget.setTabOrder(self.security_name_edit, self.security_number_edit)
+        QWidget.setTabOrder(self.security_number_edit, self.register_btn)
 
         self.retranslateUi(Dialog)
 
@@ -221,8 +226,8 @@ class Ui_Dialog(object):
         self.confirm_label.setText(QCoreApplication.translate("Dialog", u"\u786e\u8ba4\u5bc6\u7801\uff1a", None))
         self.confirm_temp.setText("")
         self.checkMessage_confirm.setText("")
-        self.question1_label.setText(QCoreApplication.translate("Dialog", u"\u5bc6\u4fdd(\u59d3\u540d)\uff1a", None))
-        self.question2_label.setText(QCoreApplication.translate("Dialog", u"\u5bc6\u4fdd(\u5de5\u53f7)\uff1a", None))
+        self.security_name_label.setText(QCoreApplication.translate("Dialog", u"\u5bc6\u4fdd(\u59d3\u540d)\uff1a", None))
+        self.security_number_label.setText(QCoreApplication.translate("Dialog", u"\u5bc6\u4fdd(\u5de5\u53f7)\uff1a", None))
         self.tip.setText(QCoreApplication.translate("Dialog", u"  *\u5bc6\u4fdd\u95ee\u9898\u7528\u4e8e\u5bc6\u7801\u627e\u56de,\u8bf7\u5982\u5b9e\u586b\u5199", None))
         self.register_btn.setText(QCoreApplication.translate("Dialog", u"\u6ce8\u518c", None))
     # retranslateUi

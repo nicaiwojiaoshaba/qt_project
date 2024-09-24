@@ -175,14 +175,14 @@
                </spacer>
               </item>
               <item>
-               <widget class="QPushButton" name="retrieve_btn">
+               <widget class="QPushButton" name="modify_btn">
                 <property name="styleSheet">
                  <string notr="true">font: 9pt &quot;Yu Gothic UI&quot;;
 text-decoration: underline;
 color:rgb(88, 197, 255);</string>
                 </property>
                 <property name="text">
-                 <string>找回密码?</string>
+                 <string>修改密码</string>
                 </property>
                </widget>
               </item>

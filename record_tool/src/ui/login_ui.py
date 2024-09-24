@@ -99,13 +99,13 @@ class Ui_Dialog(object):
 
         self.horizontalLayout_2.addItem(self.horizontalSpacer_7)
 
-        self.retrieve_btn = QPushButton(self.widget)
-        self.retrieve_btn.setObjectName(u"retrieve_btn")
-        self.retrieve_btn.setStyleSheet(u"font: 9pt \"Yu Gothic UI\";\n"
+        self.modify_btn = QPushButton(self.widget)
+        self.modify_btn.setObjectName(u"modify_btn")
+        self.modify_btn.setStyleSheet(u"font: 9pt \"Yu Gothic UI\";\n"
 "text-decoration: underline;\n"
 "color:rgb(88, 197, 255);")
 
-        self.horizontalLayout_2.addWidget(self.retrieve_btn)
+        self.horizontalLayout_2.addWidget(self.modify_btn)
 
 
         self.verticalLayout.addLayout(self.horizontalLayout_2)
@@ -166,7 +166,7 @@ class Ui_Dialog(object):
         self.password_temp.setText("")
         self.password_temp.setPlaceholderText(QCoreApplication.translate("Dialog", u"\u5bc6\u7801:", None))
         self.checkBox.setText(QCoreApplication.translate("Dialog", u"\u8bb0\u4f4f\u5bc6\u7801", None))
-        self.retrieve_btn.setText(QCoreApplication.translate("Dialog", u"\u627e\u56de\u5bc6\u7801?", None))
+        self.modify_btn.setText(QCoreApplication.translate("Dialog", u"\u4fee\u6539\u5bc6\u7801", None))
         self.login_btn.setText(QCoreApplication.translate("Dialog", u"\u767b\u5f55", None))
         self.register_btn.setText(QCoreApplication.translate("Dialog", u"\u6ce8\u518c", None))
     # retranslateUi

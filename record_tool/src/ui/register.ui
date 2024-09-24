@@ -243,14 +243,14 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_16">
         <item>
-         <widget class="QLabel" name="question1_label">
+         <widget class="QLabel" name="security_name_label">
           <property name="text">
            <string>密保(姓名)：</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="question1_edit">
+         <widget class="QLineEdit" name="security_name_edit">
           <property name="maximumSize">
            <size>
             <width>287</width>
@@ -280,14 +280,14 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_17">
         <item>
-         <widget class="QLabel" name="question2_label">
+         <widget class="QLabel" name="security_number_label">
           <property name="text">
            <string>密保(工号)：</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="question2_edit">
+         <widget class="QLineEdit" name="security_number_edit">
           <property name="maximumSize">
            <size>
             <width>287</width>
@@ -347,6 +347,14 @@ font: 8pt &quot;Yu Gothic UI&quot;;</string>
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>username_edit</tabstop>
+  <tabstop>password_temp</tabstop>
+  <tabstop>confirm_temp</tabstop>
+  <tabstop>security_name_edit</tabstop>
+  <tabstop>security_number_edit</tabstop>
+  <tabstop>register_btn</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

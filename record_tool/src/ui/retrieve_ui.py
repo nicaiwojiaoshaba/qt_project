@@ -23,7 +23,7 @@ class Ui_Dialog(object):
     def setupUi(self, Dialog):
         if not Dialog.objectName():
             Dialog.setObjectName(u"Dialog")
-        Dialog.resize(381, 281)
+        Dialog.resize(327, 241)
         Dialog.setMaximumSize(QSize(381, 281))
         self.verticalLayout_5 = QVBoxLayout(Dialog)
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
@@ -31,17 +31,14 @@ class Ui_Dialog(object):
         self.widget.setObjectName(u"widget")
         self.horizontalLayout_3 = QHBoxLayout(self.widget)
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
-        self.horizontalSpacer_3 = QSpacerItem(20, 13, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
-
-        self.horizontalLayout_3.addItem(self.horizontalSpacer_3)
-
         self.verticalLayout_3 = QVBoxLayout()
         self.verticalLayout_3.setObjectName(u"verticalLayout_3")
         self.label = QLabel(self.widget)
         self.label.setObjectName(u"label")
         self.label.setStyleSheet(u"font: 700 18pt \"Yu Gothic UI\";")
+        self.label.setAlignment(Qt.AlignCenter)
 
-        self.verticalLayout_3.addWidget(self.label, 0, Qt.AlignHCenter)
+        self.verticalLayout_3.addWidget(self.label)
 
         self.horizontalLayout = QHBoxLayout()
         self.horizontalLayout.setObjectName(u"horizontalLayout")
@@ -72,7 +69,7 @@ class Ui_Dialog(object):
 
         self.verticalLayout_2.addWidget(self.username_edit)
 
-        self.verticalSpacer = QSpacerItem(20, 10, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer = QSpacerItem(20, 13, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.verticalLayout_2.addItem(self.verticalSpacer)
 
@@ -81,7 +78,7 @@ class Ui_Dialog(object):
 
         self.verticalLayout_2.addWidget(self.question1_edit)
 
-        self.verticalSpacer_2 = QSpacerItem(20, 10, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer_2 = QSpacerItem(20, 13, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.verticalLayout_2.addItem(self.verticalSpacer_2)
 
@@ -102,10 +99,6 @@ class Ui_Dialog(object):
 
         self.horizontalLayout_2 = QHBoxLayout()
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
-        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
-
-        self.horizontalLayout_2.addItem(self.horizontalSpacer)
-
         self.confirm_btn = QPushButton(self.widget)
         self.confirm_btn.setObjectName(u"confirm_btn")
         self.confirm_btn.setMinimumSize(QSize(90, 0))
@@ -117,10 +110,6 @@ class Ui_Dialog(object):
 
 
         self.horizontalLayout_3.addLayout(self.verticalLayout_3)
-
-        self.horizontalSpacer_2 = QSpacerItem(20, 13, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
-
-        self.horizontalLayout_3.addItem(self.horizontalSpacer_2)
 
 
         self.verticalLayout_5.addWidget(self.widget)
